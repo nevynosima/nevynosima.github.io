@@ -1,0 +1,46 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.content{
+	width:100%;
+	min-height: 500px;
+	background-color: black; 
+}
+.lmenu{
+	float: left;
+	width: 200px;
+	background-color:blue;
+	height: 100%;
+}
+.main{
+	float: left;
+	width: calc(100% - 200px);
+	background-color:red;
+	min-height: 500px;
+}
+.page{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+ul.menu{
+	padding: 0px;
+}
+ul.menu > li.page{
+	margin-left: -15px;
+	padding-top: 25px;
+	color: white;
+}
+div.logo{
+	margin-left: 20px;
+	width: 150px;
+	height: 70px;
+	background-color: purple;
+}
+img.link_icon{
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+
